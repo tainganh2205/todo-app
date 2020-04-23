@@ -1,0 +1,17 @@
+{
+  "name": "todo-app",
+  "version": "0.1.0",
+  "description": "Demo todo App with Express Server",
+  "main": "index.js",
+  "repository": "https://github.com/tainganh2205/todo-app.git",
+  "author": "Tai",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "serve:frontend": "yarn workspace frontend dev",
+    "serve:backend": "yarn workspace backend serve"
+  }
+}
